@@ -1,0 +1,23 @@
+TASK-1
+1 What do you mean by git and GitHub?
+Git is a version control system that lets you manage and keep track of your source code history. It is designed to handle everything from small to very large projects with speed and efficiency.
+GitHub is a cloud-based hosting service that lets you manage Git repositories. If you have open-source projects that use Git, then GitHub is designed to help you better manage them.
+
+2. Why GitHub is so popular and used in most of the projects?
+GitHub is an open-source platform and is used by millions of people where you can connect, contribute, and build together awesome projects.
+It provides an easy version control system and secure cloud-based hosting service.
+
+3. What is a version control system? How Git is a VCS?
+Version control systems are a category of software tools that helps record changes to files by keeping a track of modifications done to the code.
+So, if at any time we want to move back to any previous version of our project then we can easily do it Git or Github, hence it is a VCS.
+
+4. What are the other platforms similar to GitHub?
+a. GitLab
+b. BitBucket
+c. Gitbucket
+d. SourceForge
+e. Beanstalk
+
+5. Why are you interested in learning of Git and Github?
+Git and Github are the two most popular technologies for developers. As it provides features that help to build your projects safely, securely, and by taking the help of others through their contributions.
+Also, it's a platform where you can do open source contributions and is used by millions of people, develops interest among developers.
