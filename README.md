@@ -13,6 +13,7 @@ This repo shows how to begin with Git and Github.<br>
 ```
   git config --global user.email "email@mail.com"     (your Github account mailId)
 ```
+<img src="https://github.com/imPGupta/learn_git/blob/master/Img/1.%20Configuring%20Git.png" width="75%" >
 
 ## 📁 Creating a new Repository
 - Create a folder in your system and then initializing it with git.
@@ -20,6 +21,8 @@ This repo shows how to begin with Git and Github.<br>
 ```  
   git init 
 ```
+<img src="https://github.com/imPGupta/learn_git/blob/master/Img/2.%20Creating%20a%20new%20repo.png" width="75%" >
+
 - Now your folder is initialized with git.
 - Create a simple file and save it inside that folder.
 
@@ -28,6 +31,8 @@ This repo shows how to begin with Git and Github.<br>
 ``` 
  git status
 ```
+<img src="https://github.com/imPGupta/learn_git/blob/master/Img/3.%20Checking%20status.png" width="75%" >
+
  
 ## ➕ Add the files
 ``` 
@@ -37,11 +42,15 @@ This repo shows how to begin with Git and Github.<br>
 ```
  git add -A
 ```
+<img src="https://github.com/imPGupta/learn_git/blob/master/Img/4.%20Add%20the%20files.png" width="75%" >
+
 
 ## 🔗 Commiting the files
 ``` 
  git commit -m "commit message"
 ```
+<img src="https://github.com/imPGupta/learn_git/blob/master/Img/5.%20Commiting%20the%20files.png" width="75%" >
+
 
 ## 💫 Connecting it to your repo at Github
 - Create a new repo on your github. Let's say learn_git.
@@ -50,11 +59,19 @@ This repo shows how to begin with Git and Github.<br>
 ```  
   git remote add origin https://github.com/imPGupta/learn_git
 ```
+<img src="https://github.com/imPGupta/learn_git/blob/master/Img/6.%20Connecting%20it%20Github.png" width="75%" >
+
 
 ## 💥 Uploading to Github
 ``` 
  git push origin master
 ```
+<img src="https://github.com/imPGupta/learn_git/blob/master/Img/7.%20Uploading%20to%20Github.png" width="75%" >
+
+**Remove Error If Occurs**
+
+<img src="https://github.com/imPGupta/learn_git/blob/master/Img/8.%20Uploading%20to%20Github.png" width="75%" >
+
 
 ## © Cloning a Git repo
 ``` 
@@ -65,3 +82,5 @@ This repo shows how to begin with Git and Github.<br>
 ```
 git pull origin master
 ```
+<img src="https://github.com/imPGupta/learn_git/blob/master/Img/9.%20Getting%20files%20from%20Github.png" width="75%" >
+
