@@ -4,7 +4,7 @@ This repo shows how to begin with Git and Github.<br>
 **GitHub** is a cloud-based hosting service that lets you manage Git repositories. If you have open-source projects that use Git, then GitHub is designed to help you better manage them.
 
 ## 🏃‍♂️ Installing Git
-First Install git for your OS. Available for Linux/Unix, Windows and Mac.
+- First Install git for your OS. Available for Linux/Unix, Windows and Mac.
 
 ## 🛠 Configuring Git
 ```
