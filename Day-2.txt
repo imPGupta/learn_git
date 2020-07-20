@@ -1,3 +1,35 @@
-This repo shows how to begin with Git and Github.
-Git is a version control system that lets you manage and keep track of your source code history. It is designed to handle everything from small to very large projects with speed and efficiency.
-GitHub is a cloud-based hosting service that lets you manage Git repositories. If you have open-source projects that use Git, then GitHub is designed to help you better manage them.
+1. How git workflow works?
+First make a github account and configure git on your system.
+Make a folder and initialize it with git by git init.
+Git Workflow->
+Working Directory------------> index stage-----------> local repo--------->remote repo
+	             git add -A		        git commit		git push
+
+2. What're the different stages of a git project as commit, add?
+There are 3 stages in a git project:
+a. Modified: In this stage we do all the changes in our project locally.
+b. Staged: Now we add the files by git add command and move to this stage.
+c. Commit: Now we finally commit all the changes that we have done by git commit -m "message" command with a message.
+At last we push our local directory to remote by git push command.
+
+3. Is it possible to do a git commit before git add . if you have made any changes? Explain why?
+No, it is not possible to do git commit before git add. It will show-
+On branch master
+Your branch is up to date with 'origin/master'.
+Changes not staged for commit:
+        modified:   file_name
+Untracked files:
+        file_name
+no changes added to commit
+
+* But if you have made changes to any previously committed files and do not add any new file then you can use
+  git commit -a command to do it in one step.
+
+4. Why is git diff used?
+This command is used to track the difference between the different versions of a file.
+
+5. Can we leave the commit message as blank?
+Yes, we can leave the commit message as blank, but always doing a meaningful commit message is a good for you as well as for other developers.
+Through this commit message you can come back to your previous versions of project easily.
+ 
+ 
