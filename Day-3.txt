@@ -1,0 +1,21 @@
+TASK-3
+1. What is meant by the term fork and clone?
+Fork:  A fork is a copy of a repo that allows you to do changes in that repo without affecting the orignal project.
+Clone: When we create  a local copy of a repository which is present on Github or remote location, it is known as cloning.
+command: git clone "repo_address"
+
+2. What are branches in Github?
+ Branches are used to separate a part of code from your master branch or any other branch.
+ You can create multiple branch in a repository.
+ command: git branch <branch_name> 
+
+3. What is PR?
+ A PR is the way to tell the changes or the contributions that you have made in other's repository.
+
+4. Can we delete the master branch if not Why?
+ No, we can't delete the master branch as it main and default branch. If we want to delete master branch then we have to make a 
+new branch and set it to as default branch after that we can delete master branch.
+
+5.  How can we delete a branch? 
+ git checkout <other_branch>
+ git branch -d <name_of_branch_you_want_to_delete>
