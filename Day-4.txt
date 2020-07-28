@@ -1,0 +1,14 @@
+TASK-4
+1. What do you mean by merge conflicts?
+A merge conflict occurs when Git is unable to automatically resolve differences in code between the two commits.
+Like, changes are made on the same line by both the developers or one deletes a file and other manipulates that file
+or when both added a new file with same name.
+Github provides a simpler where you can see the differences and resolve merge conflicts easily.
+
+2. Can we have 200 different branches other than the master?
+Yes, we can create as many branch as we want, there is no restrictions.
+
+3. What's the difference between git branch -d and git branch - D?
+git branch -d <branch_name> will delete a branch only if it has already pushed and merged with the remote branch.
+git branch -D is used to force the branch to be deleted, even if it hasn't been pushed or merged.
+
